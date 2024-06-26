@@ -1,9 +1,9 @@
-name: build
+name: check
 
 on: [pull_request, push]
 
 jobs:
-  build:
+  check:
     runs-on: ubuntu-latest
 
     strategy:
@@ -20,6 +20,10 @@ jobs:
         run: yarn --frozen-lockfile
       - name: Format check
         run: yarn format:check
+      - name: Lint check
+        run: yarn lint:check
+      - name: Types check
+        run: yarn types:check
       - name: Unit Testing
         run: yarn test
         env:
