@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-rule-adoption",
-  "version": "0.0.0-development",
+  "version": "0.0.0-development.1",
   "description": "ESLint plugin for incremental rule adoption.",
   "keywords": [
     "eslint",
