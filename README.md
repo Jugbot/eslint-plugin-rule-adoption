@@ -5,6 +5,20 @@ An eslint plugin for incremental rule adoption, when `--fix` and codemods don't 
 If you deal with very large codebases such as monorepos, you may find that adopting new rules can be a huge chore.
 This plugin forceably shares the burden of eslint rule adoption amoungst all maintainers.
 
+## Install
+
+npm:
+
+```
+npm i --save-dev eslint-plugin-rule-adoption
+```
+
+yarn:
+
+```
+yarn add -D eslint-plugin-rule-adoption
+```
+
 ## Usage
 
 This plugin comes with a processor.
