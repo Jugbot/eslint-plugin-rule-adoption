@@ -1,3 +1,6 @@
 __snapshots__/
 coverage/
 node_modules/
+
+# Since we create file hashes based on content
+fixtures/*/index.js

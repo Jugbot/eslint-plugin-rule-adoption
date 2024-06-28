@@ -1,0 +1,1 @@
+yarn types:check & yarn format:check & yarn lint:check
