@@ -1,6 +1,6 @@
 const config = {
   rootDir: './',
-  testMatch: ['<rootDir>/src/**/*.test.js'],
+  testMatch: ['<rootDir>/lib/**/*.test.js'],
 };
 
 module.exports = config;

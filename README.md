@@ -5,6 +5,10 @@ An eslint plugin for incremental rule adoption, when `--fix` and codemods don't 
 If you deal with very large codebases such as monorepos, you may find that adopting new rules can be a huge chore.
 This plugin forceably shares the burden of eslint rule adoption amoungst all maintainers.
 
+### Similar Projects
+
+1. https://www.npmjs.com/package/@rushstack/eslint-patch
+
 ## Install
 
 npm:
@@ -25,16 +29,13 @@ This plugin comes with a processor.
 
 In your eslint config, you will need to add the following:
 
-```json5
+```json
 {
-  processor: [
-    /** other processors, order matters here and this one should be last */
-    'rule-adoption/processor',
-  ],
-  plugins: [
+  "processor": "rule-adoption/processor",
+  "plugins": [
     /** other plugins */
-    'eslint-plugin-rule-adoption',
-  ],
+    "eslint-plugin-rule-adoption"
+  ]
 }
 ```
 
@@ -52,12 +53,12 @@ UPDATE_ADOPTION_BLACKLIST=true npx eslint <your-eslint-args>
 
 You will then see a new file `eslint.adoption.json` next to your package.json, which contains an object where keys correspond to file hashes and the values contain information on where the file is located (for humans to read) and a list of rules that are disabled in the file.
 
-```json5
+```json
 {
-  '3e40fad28e92c430b85f6f82b918c754c1a008451670a27b70906561e08e23df': {
-    file: 'src\\rendererCore\\main.ts',
-    rules: ['react/react-in-jsx-scope', 'react/no-unknown-property', 'no-console'],
-  },
+  "3e40fad28e92c430b85f6f82b918c754c1a008451670a27b70906561e08e23df": {
+    "file": "src\\rendererCore\\main.ts",
+    "rules": ["react/react-in-jsx-scope", "react/no-unknown-property", "no-console"]
+  }
   // etc...
 }
 ```
