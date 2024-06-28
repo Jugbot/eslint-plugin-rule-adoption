@@ -1,1 +1,3 @@
-yarn types:check & yarn format:check & yarn lint:check
+yarn types:check 
+yarn format:check
+yarn lint:check

@@ -6,6 +6,7 @@ If you deal with very large codebases such as monorepos, you may find that adopt
 This plugin forceably shares the burden of eslint rule adoption amoungst all maintainers.
 
 ### Similar Projects
+
 1. https://www.npmjs.com/package/@rushstack/eslint-patch
 
 ## Install
@@ -30,8 +31,7 @@ In your eslint config, you will need to add the following:
 
 ```json
 {
-  "processor": 
-    "rule-adoption/processor",
+  "processor": "rule-adoption/processor",
   "plugins": [
     /** other plugins */
     "eslint-plugin-rule-adoption"
