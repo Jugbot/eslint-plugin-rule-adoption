@@ -7,7 +7,7 @@ This plugin forceably shares the burden of eslint rule adoption amoungst all mai
 
 ### Similar Projects
 
-1. https://www.npmjs.com/package/@rushstack/eslint-patch
+1. [@rushstack/eslint-patch](https://www.npmjs.com/package/@rushstack/eslint-patch)
 
 ## Install
 
