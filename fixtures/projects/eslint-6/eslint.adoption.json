@@ -1,0 +1,8 @@
+{
+  "ff91462bdf97b51d4a7898aa7a014cd1b907f7820f5c97ab56525744256ec2a1": {
+    "file": "index.js",
+    "rules": [
+      "no-console"
+    ]
+  }
+}

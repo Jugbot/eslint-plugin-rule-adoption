@@ -1,8 +1,6 @@
 {
   "b61d2879d69f889e96a6a79dc0682e1fc038ac187550124f179829f779644106": {
     "file": "index.js",
-    "rules": [
-      "no-console"
-    ]
+    "rules": ["no-console"]
   }
 }

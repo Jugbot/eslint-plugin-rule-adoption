@@ -1,8 +1,9 @@
 {
   "root": true,
-  "extends": ["eslint:recommended", "plugin:eslint-plugin/recommended", "prettier"],
+  "processor": "rule-adoption/processor",
+  "plugins": ["eslint-plugin-rule-adoption"],
   "parserOptions": {
-    "ecmaVersion": "latest"
+    "ecmaVersion": 11
   },
   "env": {
     "node": true,
