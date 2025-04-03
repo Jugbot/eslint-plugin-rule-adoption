@@ -1,6 +1,6 @@
 {
   "root": true,
-  "processor": "rule-adoption/processor-skip-warnings",
+  "processor": "rule-adoption/processor",
   "plugins": ["eslint-plugin-rule-adoption"],
   "parserOptions": {
     "ecmaVersion": "latest"
