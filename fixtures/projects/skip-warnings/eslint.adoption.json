@@ -1,0 +1,8 @@
+{
+  "e1009728e6a2d7cfb3198cbb8b25d65d80965b2796bcad4c7297cd9c4afc567d": {
+    "file": "index.js",
+    "rules": [
+      "no-unused-vars"
+    ]
+  }
+}

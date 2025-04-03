@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "processor": "rule-adoption/processor",
+  "plugins": ["eslint-plugin-rule-adoption"],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "no-console": "warn",
+    "no-unused-vars": "error"
+  }
+}
