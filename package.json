@@ -10,6 +10,10 @@
   ],
   "author": "Jugbot",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jugbot/eslint-plugin-rule-adoption.git"
+  },
   "main": "lib/index.js",
   "files": [
     "README.md",

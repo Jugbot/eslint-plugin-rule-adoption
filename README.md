@@ -45,8 +45,13 @@ In your eslint config, you will need to add the following:
 Run eslint with the `UPDATE_ADOPTION_BLACKLIST` environment variable set to a truthy value.
 
 ```sh
-# bash
 UPDATE_ADOPTION_BLACKLIST=true npx eslint <your-eslint-args>
+```
+
+If you don't want to blacklist warnings, use the `IGNORE_WARNINGS` flag as well
+
+```sh
+UPDATE_ADOPTION_BLACKLIST=true IGNORE_WARNINGS=true npx eslint <your-eslint-args>
 ```
 
 > [!NOTE]
