@@ -1,0 +1,15 @@
+{
+    "private": true,
+    "name": "@eslint-project-fixture/skip-warnings",
+    "version": "0.0.0-development",
+    "scripts": {
+        "lint:suppress": "cross-env UPDATE_ADOPTION_BLACKLIST=true eslint --fix index.js",
+        "test": "yarn lint:suppress && jest"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "eslint": "^8.0.0",
+        "jest": "^29.7.0",
+        "eslint-plugin-rule-adoption": "link:../../.."
+    }
+}
