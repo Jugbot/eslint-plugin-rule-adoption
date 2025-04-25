@@ -1,6 +1,7 @@
 # eslint-plugin-rule-adoption 
 
-![NPM Version](https://img.shields.io/npm/v/eslint-plugin-rule-adoption)
+[![NPM Version](https://img.shields.io/npm/v/eslint-plugin-rule-adoption)](https://www.npmjs.com/package/eslint-plugin-rule-adoption)
+
 
 An eslint plugin for incremental rule adoption, when `--fix` and codemods don't cut it.
 
